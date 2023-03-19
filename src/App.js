@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "./Components/Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-black h-screen w-screen pt-10">
+      <Button />
+      <h1 className="text-white text-center mt-20">See more <a target={'_blank'} href="https://www.halaltrip.com/other/blog/five-zikr-to-remember-daily/" className="text-green-500 font-semibold">zikr</a> </h1>
     </div>
+
+
   );
 }
 
